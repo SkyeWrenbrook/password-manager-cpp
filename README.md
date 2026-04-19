@@ -21,6 +21,16 @@ Data is currently stored only during runtime and is not persisted to disk.
 - Understanding the importance of secure password storage
 - Recognizing the need for hashing/encryption and file persistence
 
+## Security Notice
+
+This project is for educational purposes only.
+
+Passwords are stored in plaintext and are not encrypted or hashed.
+This makes the application insecure and not suitable for real-world use.
+
+This project was built to explore basic programming concepts and to highlight
+the importance of proper credential storage and security practices.
+
 ## Build and Run
 Compile with a C++ compiler such as g++:
 
@@ -34,16 +44,6 @@ g++ password-manager.cpp -o password-manager
 - It does not use file storage yet.
 - It does not encrypt or hash passwords.
 - Input is currently handled with `std::cin`, so values with spaces will be split at the first space.
-
-## Security Notice
-
-This project is for educational purposes only.
-
-Passwords are stored in plaintext and are not encrypted or hashed.
-This makes the application insecure and not suitable for real-world use.
-
-This project was built to explore basic programming concepts and to highlight
-the importance of proper credential storage and security practices.
 
 ## Future Improvements
 - Add file I/O to save and load credentials
