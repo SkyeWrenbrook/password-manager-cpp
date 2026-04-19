@@ -1,6 +1,6 @@
 # Password Manager
 
-A simple command-line password manager written in C++.
+> Educational CLI project demonstrating basic credential management in C++.
 
 ## How it works
 The program stores credentials using a 'vector' of objects containing a site, username, and password.
@@ -11,7 +11,7 @@ Users interact with the system through a menu-driven interface to:
 - search for specific entries
 - delete credentials
 
-Data is currently stored only during runtime and is not persisted to disk. 
+Data is stored in memory and is lost when the program exits.
 
 ## What I Learned
 
