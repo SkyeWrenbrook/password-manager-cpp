@@ -50,9 +50,9 @@ g++ password-manager.cpp -o password-manager
 
 ## Notes
 - This version stores data in memory and is lost when the program exits
-- It does not use file storage yet.
-- It does not encrypt or hash passwords.
-- Input is currently handled with `std::cin`, so values with spaces will be split at the first space.
+- It does not use file storage yet
+- It does not encrypt or hash passwords
+- Input is currently handled with `std::cin`, so values with spaces will be split at the first space
 
 ## Future Improvements
 - Add persistent storage (file I/O or database integration) to retain data across sessions
